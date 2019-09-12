@@ -81,7 +81,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\image_part_000.jpg" />
+    <None Include="Resources\image_part_000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\King.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image_part_001.jpg" />
@@ -130,9 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image_part_016.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\King.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

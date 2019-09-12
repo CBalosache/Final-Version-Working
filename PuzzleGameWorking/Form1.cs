@@ -39,6 +39,8 @@ namespace PuzzleGameWorking
             pictureBox15.BackColor = Color.Gray;
             pictureBox16.BackColor = Color.White;
 
+            // Image Shuffle;
+
             /*pictureBox1.Image = Properties.Resources.image_part_006;
             pictureBox2.Image = Properties.Resources.image_part_009;
             pictureBox3.Image = Properties.Resources.image_part_012;
@@ -49,12 +51,14 @@ namespace PuzzleGameWorking
             pictureBox8.Image = Properties.Resources.image_part_010;
             pictureBox9.Image = Properties.Resources.image_part_013;
             pictureBox10.Image = Properties.Resources.image_part_002;
-            pictureBox11.Image = Properties.Resources.image_part_005;
+            pictureBox11.Image = Properties.Resources.image_part_005;                      
             pictureBox12.Image = Properties.Resources.image_part_008;
             pictureBox13.Image = Properties.Resources.image_part_011;
             pictureBox14.Image = Properties.Resources.image_part_014;
             pictureBox15.Image = Properties.Resources.image_part_003;
             pictureBox16.Image = Properties.Resources.image_part_000;*/
+
+            //Images in Order
 
             pictureBox1.Image = Properties.Resources.image_part_001;
             pictureBox2.Image = Properties.Resources.image_part_002;
@@ -73,6 +77,8 @@ namespace PuzzleGameWorking
             pictureBox15.Image = Properties.Resources.image_part_015;
             pictureBox16.Image = Properties.Resources.image_part_000;
 
+            // Give Tags to Picture Boxes for Comparing purposes(see checkWin Function)
+
             pictureBox1.Tag = "A";
             pictureBox2.Tag = "B";
             pictureBox3.Tag = "C";
@@ -89,9 +95,11 @@ namespace PuzzleGameWorking
             pictureBox14.Tag = "N";
             pictureBox15.Tag = "O";
             pictureBox16.Tag = "P";
-
-            //checkWin();
         }
+
+        //Handle The movement of each image by checking its neighbours. 
+        //If there is posibility of movement then swap arount the tags and images of those two neighbuoring picture boxes
+        //At every click check to see if the player has completed the game
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
@@ -652,7 +660,8 @@ namespace PuzzleGameWorking
             }
             checkWin();
         }
-
+        //Compare the current picture boxes tags with the original picture boxes tags
+        //If true, replace the empty image with the last image and display the winning message
         public void checkWin()
         {
             if((pictureBox1.Tag.ToString().Equals("A")) &&
