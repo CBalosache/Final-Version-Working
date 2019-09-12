@@ -1,0 +1,10 @@
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\bin\Debug\PuzzleGameWorking.exe.config
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\bin\Debug\PuzzleGameWorking.exe
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\bin\Debug\PuzzleGameWorking.pdb
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\obj\Debug\PuzzleGameWorking.csprojAssemblyReference.cache
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\obj\Debug\PuzzleGameWorking.Form1.resources
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\obj\Debug\PuzzleGameWorking.Properties.Resources.resources
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\obj\Debug\PuzzleGameWorking.csproj.GenerateResource.cache
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\obj\Debug\PuzzleGameWorking.csproj.CoreCompileInputs.cache
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\obj\Debug\PuzzleGameWorking.exe
+C:\Users\Cosmin Balosache\source\repos\PuzzleGameWorking\PuzzleGameWorking\obj\Debug\PuzzleGameWorking.pdb
